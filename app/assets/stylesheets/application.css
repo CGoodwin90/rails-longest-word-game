@@ -13,3 +13,16 @@
  *= require_tree .
  *= require_self
  */
+
+.grid {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 24px;
+}
+
+.column {
+  border: solid 4px black;
+  padding: 0 16px;
+  background-color: #3398DC;
+  color: white;
+}
